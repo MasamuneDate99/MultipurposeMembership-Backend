@@ -1,0 +1,12 @@
+package com.TYR.MainPackage.Strings.Enums;
+
+public enum OfferType {
+    OFFER_CASHBACK,
+    OFFER_DISCOUNT,
+    OFFER_FREE_DELIVERY,
+    OFFER_COMBO,
+    OFFER_BONUS_POINTS,
+    OFFER_REFERRAL_EVENT,
+    OFFER_LOTTERY,
+    OFFER_GIVEAWAY
+}

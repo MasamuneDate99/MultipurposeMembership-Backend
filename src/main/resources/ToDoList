@@ -1,0 +1,25 @@
+To be fixed :
+> Role authentication on @ Endpoint
+
+To Do :
+
+A. CRUD for :
+- Benefit Program
+- Events
+- Membership Mission
+- Membership Offer
+- Membership Store
+
+B. Store buy logic
+> Login as Member
+> Buy member shop points
+> Reduce points on acc
+> Get item / code
+
+C. Email Verification
+
+D. Referral Code Logic > for points
+
+E. Update member tier logic ( manual & automatically )
+
+F. Apply Pagination

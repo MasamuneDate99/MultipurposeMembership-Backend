@@ -1,0 +1,39 @@
+General breakdown :
+
+A. Customer register for Membership
+> Register with full name, phone number, email, and address
+> At least verify user email
+> References for email : https://www.codejava.net/frameworks/spring-boot/email-verification-example
+
+B. Membership Benefit
+> Member get 10% discount for all purchase ( reduce before went to database )
+> Database only for membership, not warehouse / product stock
+> Special Offer for Membership ( Create by POST, expired by X Date )
+> Reference https://www.zendesk.com/blog/loyalty-rewards/
+
+C. Admin Menu
+> Create new Offer
+> Create new Mission program ( Based on Member tier )
+> Create Spending Program ( Check total Trans based on program created
+( Old spending will not count ) )
+> Create free benefit program ( Tier based / permanent / temporarily )
+> Create subscription ?
+> Create tier / new tier
+> Added / deduct customer points
+> Create events ? ( Cashback, etc ? )
+
+D. Member Menu
+> Check new offer ( incl. spending program )
+> Check new mission
+> Check current benefit ( Based on tier / weekly / monthly )
+> Check membership points + shop
+> Referral code ? ( get member points in return )
+
+E. Database relation :
+> 1 User <> 1 Account OneToOne
+> 1 User <> 1 Role OneToOne
+> ADMIN = Operational ( Data stuff for Admin Menu )
+> STAFF = More than customer ( Staff perk & disc )
+
+F. Search Result :
+> Pagination + Offset jangan lupa !
